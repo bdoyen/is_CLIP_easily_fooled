@@ -59,7 +59,13 @@ Also, on the influence of categories inclusion or proximity : is CLIP fooled in 
 Nevertheless, the obtained results show that fooling CLIP model is not as easy as presented with the green apple/IPod experiment for certain objects and settings.
 In the tested cases, the model outputs seems very robust, maybe sometimes too 'robust' ? Especially with the cat in the background of the image with the egg (corrupted and not corrupted egg).
 And even with strong corruption of the egg object, the final prediction remains the same (egg)
-Finally, the same experiment with heatmapsof layers before classification would make the interpretation of the results easier.
+Finally, the same experiment with observation of heatmaps of last layers of the model before classification would make the interpretation of the results easier.
+
+
+## 📚 References
+- starting point : https://www.theverge.com/2021/3/8/22319173/openai-machine-vision-adversarial-typographic-attacka-clip-multimodal-neuron
+- CLIP blog post : https://openai.com/blog/clip/
+- CLIP in the browser : https://clip.kiri.ai/ 
 
 
 Photo courtesy of the white persian cat 🐈
