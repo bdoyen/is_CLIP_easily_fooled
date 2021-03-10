@@ -55,10 +55,11 @@ It took some efforts and imagination to fool the model finally...
 ## 💡 Discussion & Conclusion
 
 Larger tests are of course needed to support or not these results, especially the influence of writting/drawing on object or Post-it.
-Nevertheless, they show that fooling CLIP model is not as easy as presented with the green apple/IPod experiment for certain objects and settings.
-In the tested cases, the model outputs seems very robust, maybe sometimes too 'robust' ? Espacially with the cat in the background of the egg (corrupted and not corrupted egg).
+Also, on the influence of categories inclusion or proximity : is CLIP fooled in the apple/IPod experiment because of the name of the firm 'apple' or not ? Can xe reproduce such results ?
+Nevertheless, the obtained results show that fooling CLIP model is not as easy as presented with the green apple/IPod experiment for certain objects and settings.
+In the tested cases, the model outputs seems very robust, maybe sometimes too 'robust' ? Especially with the cat in the background of the image with the egg (corrupted and not corrupted egg).
 And even with strong corruption of the egg object, the final prediction remains the same (egg)
 Finally, the same experiment with heatmapsof layers before classification would make the interpretation of the results easier.
 
 
-Photo courtesy of the white cat. 
+Photo courtesy of the white persian cat 🐈
