@@ -13,8 +13,8 @@ We focus our interest on two categories of object : an Egg and a Cat.
 These categories have the advantage to be more 'orthogonal' between eachother compared to an apple and an IPod, as the IPod is itself a famous product of a firm called 'Apple'.
 
 5 different experimental settings have been tested:
-- Experiment #1: A 'corrupted' egg object placed in the middle of a basic 'desk scenery'.
-With our without Post-its on the Egg directly and writtings of the word 'CAT' or drawings of cat on the Egg also.
+- Experiment #1: A 'corrupted' egg object placed in the middle of a basic 'desk scenery'.<br/>
+With our without Post-its on the Egg directly and writtings of the word 'CAT' or drawings of cat on the Egg also.<br/>
 Binary classification and Multi-classes results have also been tested.
 
 - Experiment #2: A 'corrupted' egg object placed in the 'desk scenery'
@@ -47,7 +47,7 @@ Using multi-classes classification, we can indeed see that the model predictions
 
 - When a significant part of the egg object can be seen on the image, fooling is better achieved with the written word 'CAT' and not the cat drawing on the egg, which seems to be counter-intuitive and would need further investigations.
 - This inverse result is observed with writting and drawing on Post-it : fooling seems then easier with a Post-it rather then the textual data written down on the object directly.
-- Fooling was not that easy on the overaall with these objects and settings and compared to the green apple/IPod : a close up view of the egg with a Post-it with the word 'CAT' leads to a 94% prediction score for 'egg' category.
+- Fooling was not that easy on the overaall with these objects and settings and compared to the green apple/IPod : a close up view of the egg with a Post-it with the word 'CAT' leads to a 94% prediction score for 'egg' category.<br/>
 It took some efforts and imagination to fool the model finally...
 - Model output scores can flip easily between a class and another if a part of the object (her egg) is revealed or not.
 
@@ -55,9 +55,9 @@ It took some efforts and imagination to fool the model finally...
 ## 💡 Discussion & Conclusion
 
 Larger tests are of course needed to support or not these results, especially the influence of writting/drawing on object or Post-it.
-Also, on the influence of categories inclusion or proximity : is CLIP fooled in the apple/IPod experiment because of the name of the firm 'apple' or not ? Can xe reproduce such results ?
+Also, on the influence of categories inclusion or proximity : is CLIP fooled in the apple/IPod experiment because of the name of the firm 'apple' or not ? Can xe reproduce such results ?<br/>
 Nevertheless, the obtained results show that fooling CLIP model is not as easy as presented with the green apple/IPod experiment for certain objects and settings.
-In the tested cases, the model outputs seems very robust, maybe sometimes too 'robust' ? Especially with the cat in the background of the image with the egg (corrupted and not corrupted egg).
+In the tested cases, the model outputs seems very robust, maybe sometimes too 'robust' ? Especially with the cat in the background of the image with the egg (corrupted and not corrupted egg).<br/>
 And even with strong corruption of the egg object, the final prediction remains the same (egg)
 Finally, the same experiment with observation of heatmaps of last layers of the model before classification would make the interpretation of the results easier.
 
