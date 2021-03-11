@@ -1,6 +1,8 @@
 # is_CLIP_easily_fooled
 A small ML experiment with CLIP Zero-Shot-Learning Image Classifier using Post-its and natural images of an Egg and a Cat
 
+![alt text](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/master/egg_postit_cat_pred.JPG?raw=true)
+
 
 ## 🏁 Starting Point
 Following the recent image of CLIP (Contrastive Language–Image Pre-training) model fooled by an image of a green apple with a Post-it where 'IPod' is written down, we have tried to see whether such 'typographical attack' on the model could be replicated with other objects and settings.
