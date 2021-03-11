@@ -1,7 +1,7 @@
 # is_CLIP_easily_fooled
 A small ML experiment with CLIP Zero-Shot-Learning Image Classifier using Post-its and natural images of an Egg and a Cat
 
-![alt text](https://github.com/bdoyen/is_CLIP_easily_fooled/master/egg_postit_cat_pred.JPG)
+![Alt text](egg_postit_cat_pred.jpg?raw=true "Title")
 
 
 ## 🏁 Starting Point
