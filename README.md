@@ -19,30 +19,30 @@ These categories have the advantage to be more 'orthogonal' between eachother co
 With our without Post-its on the egg directly and writtings of the word 'CAT' or drawings of a cat face on the egg also.<br/>
 Binary classification and Multi-classes results have been tested.
 
-- Experiment #2: A 'corrupted' egg object placed in the 'desk scenery'
+- [Experiment #2](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/main/experiment_2.JPG): A 'corrupted' egg object placed in the 'desk scenery'
 The same egg with or without corruption has been positionned besides a Post-it with the word 'CAT' or a drawing of a face of a cat.<br/>
 Secondly, the Post-it alone with writting or drawing for binary and multi-classes classification
 
-- Experiment #3: A 'corrupted' egg object with writtings or drawings on it in a 'plain scenery' (no other object)
+- [Experiment #3](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/main/experiment_3.JPG): A 'corrupted' egg object with writtings or drawings on it in a 'plain scenery' (no other object)
 
-- Experiment #4: A 'corrupted' egg object with writtings or drawings on Post-its only in a 'plain scenery' (no other object).<br/>
+- [Experiment #4](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/main/experiment_4.JPG): A 'corrupted' egg object with writtings or drawings on Post-its only in a 'plain scenery' (no other object).<br/>
 Specific parts of the egg have been selected in this experiment and not the whole egg: above only, below only or below with right side.
 
-- Experiment #5: A real cat and a 'corrupted' egg object with or without drawings on it in a 'poor scenery' (no clear object)
+- [Experiment #5](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/main/experiment_5.JPG): A real cat and a 'corrupted' egg object with or without drawings on it in a 'poor scenery' (no clear object)
 
 
 ## 📊 Results 
 
-- From experiment #1 and beginning of experiment #2 (egg besides a Post-it), we can deduce that the model is not very sensitive to the corruption with writting or drawing on the egg or on a Post-it in the case of an object in the middle of the desk scenery.
+- From [experiment #1](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/main/experiment_1.JPG) and beginning of [experiment #2](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/main/experiment_2.JPG) (egg besides a Post-it), we can deduce that the model is not very sensitive to the corruption with writting or drawing on the egg or on a Post-it in the case of an object in the middle of the desk scenery.
 Using multi-classes classification, we can indeed see that the model predictions are more oriented towards the desk or paper support.
 
 - From the end this experiment (Post-it only), the model's predictions seems more robust towards the writting of the word 'CAT' rather than to the drawing when comparing results on a multi-class classification task
 
-- From experiment #3, we obtain a confirmation of this claim as the model seems more fooled when the word 'CAT' is written down on the egg rather than when a face of a cat is drawed on the egg.
+- From [experiment #3](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/main/experiment_3.JPG), we obtain a confirmation of this claim as the model seems more fooled when the word 'CAT' is written down on the egg rather than when a face of a cat is drawed on the egg.
 
-- From experiment #4, the fooling is on the contrary realized with the drawing on a Post-it and with only the lower part of the egg present on the input image.
+- From [experiment #4](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/main/experiment_4.JPG), the fooling is on the contrary realized with the drawing on a Post-it and with only the lower part of the egg present on the input image.
 
-- Finally, from experiment #5, the model output seems to be strongly influenced by the order of positions of objects on the image (foreground or background)
+- Finally, from [experiment #5](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/main/experiment_5.JPG), the model output seems to be strongly influenced by the order of positions of objects on the image (foreground or background)
 
 
 ## 💭 Interpretation
