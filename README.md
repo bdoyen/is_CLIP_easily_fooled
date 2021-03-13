@@ -15,7 +15,7 @@ We focus our interest on two categories of object : an Egg and a Cat.
 These categories have the advantage to be more 'orthogonal' between eachother compared to an apple and an IPod, as the IPod is itself a famous product of a firm called 'Apple'.
 
 5 different experimental settings have been tested:
-- [Experiment #1](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/main/experiment_1.jpg?raw=true): A 'corrupted' egg object placed in the middle of a basic 'desk scenery'.<br/>
+- [Experiment #1](https://github.com/bdoyen/is_CLIP_easily_fooled/blob/main/experiment_1.JPG): A 'corrupted' egg object placed in the middle of a basic 'desk scenery'.<br/>
 With our without Post-its on the egg directly and writtings of the word 'CAT' or drawings of a cat face on the egg also.<br/>
 Binary classification and Multi-classes results have been tested.
 
